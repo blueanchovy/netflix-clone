@@ -42,8 +42,8 @@ function Header() {
       <div className="flex items-center space-x-4 text-sm font-light">
         <SearchIcon className="hidden h-6 w-6 fill-[#ffffff] sm:inline" />
         <p
-          className="
-        hidden font-normal text-[#e5e5e5]  lg:inline"
+          className="hidden
+        cursor-pointer font-normal text-[#e5e5e5]  transition duration-[.4s] hover:text-[#b3b3b3] lg:inline"
         >
           Kids
         </p>
